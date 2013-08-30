@@ -47,7 +47,7 @@ import java.util.Set;
 public class EmailBulkImporter {
     private final static DateFormat DATE_FORMAT = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z (z)");
 
-    private static final String FAMILY = "sent_messages";
+    private static final String FAMILY = "info";
 
     public final static class SystemFilenameFilter implements FilenameFilter {
 
